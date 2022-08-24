@@ -3,18 +3,28 @@ body {
     background-color: black;
     background-size: cover;
     color: white;
-    text-align: center;
     font-family: "Verdana", sans-serif;
 }
-img {
-    margin: 40px;
+header {
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.777), rgba(80, 75, 75, 0.81));
+    height: 100%;
 
 }
+img {
+    width: 10%;
+    height: 5%;
+    margin-top: 0.5rem;
+    margin-left: 2rem;
+}
 h1 {
-    margin-top: 30px;
+    margin-top: 50px;
+    text-align: center;
 }
 h2 {
     margin: 20px;
+    text-align: center;
+    margin-top: 50px;
 }
 p {
     background-color: dimgray;
@@ -31,9 +41,10 @@ input {
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
+    margin-left: 20%;
 }
 button {
-    width: 20%%;
+    width: 20%;
     background-color: black;
     color: rgba(172, 172, 0, 0.896);
     padding: 14px 20px;
