@@ -1,0 +1,44 @@
+body {
+    background-image: url("popcorn-img/background.png");
+    background-color: black;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    font-family: "Verdana", sans-serif;
+}
+img {
+    margin: 40px;
+
+}
+h1 {
+    margin-top: 30px;
+}
+h2 {
+    margin: 20px;
+}
+p {
+    background-color: dimgray;
+    margin-top: 80px;
+    margin-right: 35%;
+    margin-left: 35%;
+    padding: 20px;
+}
+input {
+    width: 40%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+button {
+    width: 20%%;
+    background-color: black;
+    color: rgba(172, 172, 0, 0.896);
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
